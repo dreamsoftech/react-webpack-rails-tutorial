@@ -11,7 +11,7 @@ import RouterApp from './ClientRouterApp';
 import SimpleCommentScreen from '../components/SimpleCommentScreen/SimpleCommentScreen';
 import routerCommentsStore from '../store/routerCommentsStore';
 import commentsStore from '../store/commentsStore';
-import NavigationBarApp from './NavigationBarApp';
+// import NavigationBarApp from './NavigationBarApp';
 
 // Initizalize all locales for react-intl.
 addLocaleData([...en, ...de, ...ja, ...zh]);
@@ -23,7 +23,7 @@ ReactOnRails.setOptions({
 ReactOnRails.register({
   App,
   RouterApp,
-  NavigationBarApp,
+  // NavigationBarApp,
   SimpleCommentScreen,
 });
 
